@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "sivadevops-remote-state"
-    key    = "minikube"
+    key    = "eksctl"
     region = "us-east-1"
     dynamodb_table = "sivadevops-locking"
   }
